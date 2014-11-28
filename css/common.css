@@ -1,0 +1,45 @@
+body {
+	//font-family: serif;
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 480px;
+}
+
+video{
+	margin-bottom :10px;
+	//max_width :100%;
+	//max-height:auto;
+}
+canvas.level_meter{
+	
+	margin-bottom :5px;	
+	margin-top :5px;	
+}
+
+h4{
+	margin: 0 0 3px 0;
+}
+
+h5{
+	margin: 2px;
+}
+
+div.output{
+	text-align:center;
+}
+
+div.timer{
+	//margin-left :330px;
+	text-align:right;
+	
+}
+
+button.nextButton{
+	text-align:right;
+}
+
+#q_img{
+	padding :30px 90px 30px 90px;
+}
+
+

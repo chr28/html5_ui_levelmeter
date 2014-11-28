@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="../css/common.css" type="text/css" />
+<script language="javascript" type="text/javascript" src="../js/common.js"></script>
+<script language="javascript" type="text/javascript">
+var server_addr = 'http://w3voice.jp/~chihiro/time_test/block/main.cgi';
+var timer_type = 0; // 0: block 1: bar
+var level_type = 0; //0:sp 1:db 2: 3: 4: 5
+</script>
+<title>w3voice test</title>
+</head>
+
+<body>
+<div id="output">
+<h3>ようこそ!</h3>
+<img id="q_img" src="../image/empty.png" width="300" height="300" title="test" alt="sample">
+</div>
+
+<p>
+<canvas id="level_meter" width="480" height="50" class="level_meter"></canvas>
+</p>
+
+<p>
+制限時間: 0 <canvas id="timer" width="245" height="30"></canvas> 10
+</p>
+
+<p>
+<button id="nextButton" onClick="goNext()">次の問題</button>
+</p>
+
+<hr>
+<p id="log"></p>
+
+</body>
+</html>
